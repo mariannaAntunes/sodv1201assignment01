@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <header> <!--Adding requested navigation bar-->
+        <ul>
+            <li id="name">marianna antunes</li>
+            <li><a href="../index.html" target="_blank">PROFILE</a></li>
+            <li><a href="../MarkToGrade/markToGrade.html" target="_blank">MARK TO GRADE</a></li>
+            <li><a href="../StaffPage/staffPage.html" target="_blank">STAFF</a></li>
+            <li><a href="weather.html">WEATHER</a></li>
+        </ul>
+    </header>
+    <main> 
+        <p id="title">Temperature Converter</p>
+        <input type="text" placeholder="Enter Temperature (°F)"> <!--Adding one input box to enter the temperature-->
+        <button>Convert</button> <!--Adding one button to convert the temperature when clicked-->
+        <p id="output1"></p> <!--Adding one paragraph for the 1st output (converted temperature in degree celsius or error message)-->
+        <p id="output2"></p> <!--Adding one paragraph for the 2nd output (converted temperature in kelvin)-->
+    </main>
+    <footer> <!--Adding requested footer (text from js file)-->
+        <p id="todaysDate"></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>

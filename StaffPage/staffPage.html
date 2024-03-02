@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff</title>
+    <link rel="stylesheet" href="staffPage.css">
+</head>
+<body>
+    <header> <!--Adding requested navigation bar-->
+        <ul>
+            <li id="name">marianna antunes</li>
+            <li><a href="../index.html" target="_blank">PROFILE</a></li>
+            <li><a href="../MarkToGrade/markToGrade.html" target="_blank">MARK TO GRADE</a></li>
+            <li><a href="staffPage.html" target="_blank">STAFF</a></li>
+            <li><a href="../Weather/weather.html">WEATHER</a></li>
+        </ul>
+    </header>
+    <main>
+        <p id="title">Staff Page</p>
+        <button id="sortByName">SORT BY NAME</button> <!--Adding a button to sort the table by name when clicked-->
+        <button id="sortBySalary">SORT BY SALARY</button> <!--Adding a button to sort the table by salary when clicked-->
+        <table id="tbStaff" border="1"> <!--Creating the table-->
+            <tr> <!--Creating the table header-->
+                <td><b>Name<b></td>
+                <td><b>Position<b></td>
+                <td><b>City<b></td>
+                <td><b>ID<b></td>
+                <td><b>Admission Date<b></td>
+                <td><b>Salary<b></td>
+            </tr>
+          </table>
+    </main>
+    <footer> <!--Adding requested footer (text from js file)-->
+        <p id="todaysDate"></p>
+    </footer>
+    <script src="staffPage.js"></script>
+</body>
+</html>
